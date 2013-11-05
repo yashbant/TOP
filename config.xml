@@ -3,7 +3,7 @@
     xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.phonegap.example"
     version   = "2.0.0">
-<preference name="TOP mobile application." value="2.2.0" />
+<preference name="TOP mobile application." value="3.1.0" />
 <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
 <name>TOP</name>
 
