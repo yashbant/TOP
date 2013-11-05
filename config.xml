@@ -5,7 +5,7 @@
     version   = "2.0.0">
 <preference name="TOP apps." value="2.2.0" />
 <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
-<name>TON</name>
+<name>TOP</name>
 
 <icon src="images/TOP.png" />
 <description>
