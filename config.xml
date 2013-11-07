@@ -7,7 +7,7 @@
 <gap:plugin name="com.pushwoosh.plugins.pushwoosh" />
 <name>TOP</name>
 
-<icon src="images/TOP.png" />
+<icon src="images/TOP-app.png" />
 <description>
 ‘Times of Psychiatry’ is a scientific newsletter for Psychiatrists. The first and the second issues were released in print earlier this year. The newsletter is customized to cater to the practical needs and interests of practicing psychiatrists. Information on the evolving role of various drugs in schizophrenia, bipolar disorder, insomnia, and depression is elaborately reviewed. The print version of the first and second issues was well appreciated by the audiences. To bridge the gap between time constraints and the quest for knowledge, the upcoming third issue is being simultaneously released as a mobile app. 
 </description>
