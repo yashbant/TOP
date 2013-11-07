@@ -51,8 +51,8 @@ img{
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 	header, #content, footer, nav{width:768px;}
-	#sidebar{width:184px;}
-	#main-content{width:504px;}
+	#sidebar{width:725px;}
+	#main-content{width:725px;}
 			.menu{display:none;}
 	.minimenu{display:block;}
 	header {margin-top: 0px;height:120px;}
