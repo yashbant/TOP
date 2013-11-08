@@ -106,7 +106,7 @@ nav ul li:hover a{color:#ffffff;}
 #main-content article top ul li a:hover {color: #C00; text-decoration: none;}
 
 #main-content article .info{ font-size:12px;}
-#main-content article img{ width:100%; float:left; margin:5px; padding:2px; border:1px solid #999;}
+#main-content article img{ float:left; margin:5px; padding:2px; border:1px solid #999;}
 
 
 #main-content article1 p{margin-bottom:10px; font-size:18px;}
