@@ -18,7 +18,7 @@
     
     <!-- CSS
   ================================================== -->
-	<link rel="stylesheet" href="css/style2.css">
+	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 	
 	<!--[if lt IE 8]>
@@ -34,7 +34,42 @@
 	<![endif]-->
 	
 	<link href='./images/top.ico' rel='icon' type='image/x-icon'/>
-    
+     <style type="text/css">
+a:hover {
+	cursor:pointer; 
+}
+</style>
+<script type="text/javascript">
+
+//SAG scroller demo #1:
+
+var sagscroller1=new sagscroller({
+	id:'mysagscroller',
+	mode: 'manual' //<--no comma following last option
+})
+
+//SAG scroller demo #2:
+
+var sagscroller2=new sagscroller({
+	id:'mysagscroller2',
+	mode: 'auto',
+	pause: 2500,
+	animatespeed: 400 //<--no comma following last option
+})
+     function show(id)
+     {
+		
+        if(document.getElementById(id).style.display == 'none')
+        {
+              document.getElementById(id).style.display='inline';
+			  document.getElementById(id).select();
+        }
+		else if(document.getElementById(id).style.display == 'inline')
+        {
+              document.getElementById(id).style.display='none';
+        } 
+     }
+    </script>   
 </head>
 <body>
 <!--------------Header--------------->
@@ -71,13 +106,11 @@
 	<div id="main-content">
 		<article>
 			<div class="heading">
-				<div style="background-color:#770f26; padding:10px; border-radius:10px;"><h11a>Amisulpride: Preferred antipsychotic
-for the treatment of positive
-symptoms of schizophrenia</h11a></div>
+				<div style="background-color:#770f26; padding:10px; border-radius:10px;"><h11a>Amisulpride: Preferred antipsychotic for the treatment of positive symptoms of schizophrenia</h11a></div>
 				<div class="info"> by Medeka Health | November 01, 2013</div>
-			</div><h12a>Amisulpride is effective in the treatment of positive symptoms of schizophrenia</h12a>        
-		  <div class="content"><img src="images/port1.jpg" alt="img" width="300" >
-		    <p>A meta-analysis involving 150 randomized
+			</div><h12a>Amisulpride is effective in the treatment of positive symptoms of schizophrenia</h12a>          
+			<div class="content">
+			  <p>A meta-analysis involving 150 randomized
 		      controlled studies compared the effects of atypical
 		      (amisulpride, aripiprazole, clozapine, olanzapine,
 		      quetiapine, risperidone, sertindole, ziprasidone,
@@ -114,14 +147,15 @@ mean difference [95% CI]: -0·31 [-0.60 to
 		<section>
 		  <div class="heading">
 			<div class="content">
-				<ul> <li><a href="AMS-I.html">Introduction</a> </li>
+				<ul> <li  style="color:#CCC"><a href="AMS-I.html">Introduction
+                </a></li>
  <li style="color:#999">Amisulpride is effective
     in the treatment of positive symptoms of schizophrenia</li>
              <li><a href="AMS-III.html">Conclusion</a></li>
              <li><a href="AMS-IV.html">References</a></li>
 
 </ul>
-        </div></section></div>
+                </div></section></div>
 		</article>
 	</div>
 	<div id="sidebar">
