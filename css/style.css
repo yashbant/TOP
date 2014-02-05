@@ -71,7 +71,7 @@ nav ul li:hover a{color:#ffffff;}
 #main-content article1ac{ clear: both; font-size:14px; margin:10px 10px 10px 10px;}
 .bor{ clear: both;border-bottom:3px double #333333;}
 #main-content article1{ clear: both; font-size:14px; margin:10px 10px 10px 10px;}
-#main-content article ul{ font-size:14px; list-style-type:circle; margin-left:20px;}
+#main-content article ul{ font-size:14px; list-style-type:disc; margin-left:20px;}
 #main-content article ul li{/*border-bottom: 1px solid #E1E1E1*/; padding:5px; margin-top:15px;}
 #main-content article ul li a{color: #474747;text-decoration: none;}
 #main-content article ul li a:hover {color: #C00; text-decoration: none;}
@@ -80,24 +80,38 @@ nav ul li:hover a{color:#ffffff;}
 #main-content article ol li{padding:5px;}
 
 #main-content article .heading{ margin-bottom:10px;}
+#main-content article .heading2{ margin-bottom:20px;}
+#main-content article h2ta{ color:#C00;font-size: 20px; text-align: left; font-weight: normal;}
 
 #main-content article h2{ color:#C00;font-size: 26px; text-align: left; font-weight: normal;}
 #main-content article h12{ color:#C00;font-size: 20px; text-align: left; font-weight: normal;}
 #main-content article h12a{ color:#770f26;font-size: 20px; text-align: left; font-weight: normal;}
-#main-content article h12b{ color:#0580c5#5d2d90;font-size: 20px; text-align: left; font-weight: normal;}
+#main-content article h12aa{ color:#0959a4;font-size: 18px; text-align: left; font-weight: normal;}
 #main-content article h12b{ color:#5d2d90;font-size: 20px; text-align: left; font-weight: normal;}
+#main-content article h12b{ color:#5d2d90;font-size: 20px; text-align: left; font-weight: normal;}
+
+#main-content article h12b1{ color:#0580c5;font-size: 18px; text-align: left; font-weight: normal;}
 #main-content article h12c{ color:#0580c5;font-size: 20px; text-align: left; font-weight: normal;}
-#main-content article h12d{ color:#bb8e2c;font-size: 20px; text-align: left; font-weight: normal;}
-#main-content article h12e{ color:#c65426;font-size: 20px; text-align: left; font-weight: normal;}
-#main-content article h12f{ color:#007945;;font-size: 20px; text-align: left; font-weight: normal;}
+
+#main-content article h12c1{ color:#0580c5;font-size: 18px; text-align: left; font-weight: normal;}
+#main-content article h12ca{ color:#0580c5;font-size: 16px; text-align: left; font-weight: normal;}
+#main-content article h12d{ color:#0880c5;font-size: 18px; text-align: left; font-weight: normal;}
+#main-content article h12e{ color:#b0005f;font-size: 20px; text-align: left; font-weight: normal;}
+#main-content article h12e1{ color:#0880c5;font-size: 18px; text-align: left; font-weight: normal;}
+#main-content article h12f{ color:#915f40;;font-size: 20px; text-align: left; font-weight: normal;}
 #main-content article h12g{ color:#D70005;;font-size: 20px; text-align: left; font-weight: normal;}
-#main-content article h12h{ color:#185886;;font-size: 20px; text-align: left; font-weight: normal;}
+
+#main-content article h12ga{ color:#D70005;;font-size: 16px; text-align: left; font-weight: normal;}
+
+
+#main-content article h12h{ color:#248857;;font-size: 20px; text-align: left; font-weight: normal;}
+#main-content article h12h2{ color: #600;;font-size: 18px; text-align: left; font-weight: normal;}
 #main-content article h12h1{ color: #000;;font-size: 18px; text-align: left; font-weight: normal;}
 #main-content article h14c{ color:#0580c5;font-size: 16px; text-align: left; font-weight: normal;}
 
 #main-content article h11{ color:#474747;font-size: 22px; text-align: left; font-weight: normal;}
 #main-content article h11a{ color:#ffffff;font-size: 22px; text-align: left; font-weight: normal;}
-
+#main-content article h11a1{ color:#ffffff;font-size: 16px; text-align: left; font-weight: normal;}
 #main-content article h11 a{color:#474747;text-decoration: none;}
 #main-content article h11 a:hover {color:#C00; text-decoration: none;}
 #main-content article top ul{ font-size:18px; list-style-type:circle; margin-left:20px;}
@@ -105,8 +119,12 @@ nav ul li:hover a{color:#ffffff;}
 #main-content article top ul li a{color: #474747;text-decoration: none;}
 #main-content article top ul li a:hover {color: #C00; text-decoration: none;}
 #main-content article .info{ font-size:12px;}
-#main-content article img{ width:100%; float:left; margin:5px; padding:2px; border:1px solid #999;}
-
+#main-content article img{ width:100%; float:left; margin:5px 5px 5px 0px; padding:2px; border:1px solid #999;}
+.col8{width:90%;background: #eae0d9;
+	color: #000000;
+	margin: 10px 10px 10px 10px;
+	overflow: hidden;
+	padding: 5px 5px 5px 5px; font-size:16px; text-align:center;  border-radius: 15px;}
 
 #main-content article1 p{margin-bottom:10px; font-size:18px;}
 #main-content article .heading1{ font-size:18px;}
@@ -187,6 +205,16 @@ nav ul li:hover a{color:#ffffff;}
 #top5 .content ul li a{color:#5d2d90;text-decoration: none;}
 #top5 .content ul li a:hover {color: #474747; text-decoration: none;}
 
+#top5a{clear: both; font-size:14px; margin:0;}
+#top5a section{margin-bottom:20px;}
+#top5a .heading{ padding:0px;}
+#top5a .heading h2{font-size:22px; color:#c65426; font-weight:bold; display:inline; padding:0 10px;}
+#top5a .content{padding:0px}
+#top5a .content ul{ font-size:18px; list-style-type:circle; margin-left:20px;}
+#top5a .content ul li{border-bottom: 1px solid #E1E1E1; padding:5px;}
+#top5a .content ul li a{color:#0880c5;text-decoration: none;}
+#top5a .content ul li a:hover {color: #474747; text-decoration: none;}
+
 #top6{clear: both; font-size:14px; margin:0;}
 #top6 section{margin-bottom:20px;}
 #top6 .heading{ padding:0px;}
@@ -194,7 +222,7 @@ nav ul li:hover a{color:#ffffff;}
 #top6 .content{padding:0px}
 #top6 .content ul{ font-size:18px; list-style-type:circle; margin-left:20px;}
 #top6 .content ul li{border-bottom: 1px solid #E1E1E1; padding:5px;}
-#top6 .content ul li a{color:#c65426;text-decoration: none;}
+#top6 .content ul li a{color:#b0005f;text-decoration: none;}
 #top6 .content ul li a:hover {color: #474747; text-decoration: none;}
 
 #top7{clear: both; font-size:14px; margin:0;}
@@ -204,7 +232,7 @@ nav ul li:hover a{color:#ffffff;}
 #top7 .content{padding:0px}
 #top7 .content ul{ font-size:18px; list-style-type:circle; margin-left:20px;}
 #top7 .content ul li{border-bottom: 1px solid #E1E1E1; padding:5px;}
-#top7 .content ul li a{color:#007945;text-decoration: none;}
+#top7 .content ul li a{color:#915f40;text-decoration: none;}
 #top7 .content ul li a:hover {color: #474747; text-decoration: none;}
 
 
@@ -233,7 +261,7 @@ nav ul li:hover a{color:#ffffff;}
 #top10 .content{padding:0px}
 #top10 .content ul{ font-size:18px; list-style-type:circle; margin-left:20px;}
 #top10 .content ul li{border-bottom: 1px solid #E1E1E1; padding:5px;}
-#top10 .content ul li a{color:#185886;text-decoration: none;}
+#top10 .content ul li a{color:#248857;text-decoration: none;}
 #top10 .content ul li a:hover {color: #474747; text-decoration: none;}
 
 
@@ -244,7 +272,7 @@ nav ul li:hover a{color:#ffffff;}
 #pagi li a.current, #pagi li a:hover {color: #ffffff;	background: #d2232a;}
 /*------------footer */ 
 footer {width:960px; margin:0px auto 20px auto; padding:10px 0px; color:#ffffff; text-align:center; background-color:#185886;
--webkit-border-radius: 0px 0px 10px 10px;-moz-border-radius: 0px 0px 10px 10px;-khtml-border-radius: 0px 0px 10px 10px;border-radius: 0px 0px 10px 10px;box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 1px 0px rgba(255, 255, 255, 0.05) inset;}
+-webkit-border-radius: 0px 0px 10px 10px;-moz-border-radius: 0px 0px 10px 10px;-khtml-border-radius: 0px 0px 10px 10px;border-radius: 0px 0px 10px 10px;box-shadow: 0px 20px 40px 0px rgba(255, 255, 255, 0.1) inset, 0px 1px 1px 0px rgba(255, 255, 255, 0.05) inset; font-size:11px;}
 footer a{color:#ffffff; text-decoration:underline;}
 footer a:hover{color:#ffffff;}
 

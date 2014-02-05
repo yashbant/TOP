@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Times of Pshychiatry</title>
+	<meta name="description" content=" |">
+	<meta name="medekahealth" content="">
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+		<link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+	<link href='./images/top.ico' rel='icon' type='image/x-icon'/>
+<style type="text/css">
+a:hover {
+	cursor:pointer; 
+}
+</style>
+<script type="text/javascript">
+
+//SAG scroller demo #1:
+  function calculate()
+  {
+    
+       var res=0;
+       var res1=0;
+       var res2=0;
+       var res3=0;
+       var res4=0;
+	   var res5=0;
+       var res6=0;
+       var res7=0;
+       var res8=0;
+       var res9=0;
+	   var res10=0;
+       var res11=0;
+       var res12=0;
+       var res13=0;
+       var res14=0;
+	   var res15=0;
+       var res16=0;
+       var res17=0;
+       var res18=0;
+       var res19=0;
+	   var res20=0;
+	   
+       res=cal("q1");
+       res1=cal("q2");
+       res2=cal("q3");
+       res3=cal("q4");
+       res4=cal("q5");
+	   res5=cal("q6");
+       res6=cal("q7");
+       res7=cal("q8");
+       res8=cal("q9");
+       res9=cal("q10");
+	   res10=cal("q11");
+       res11=cal("q12");
+       res12=cal("q13");
+       res13=cal("q14");
+       res14=cal("q15");
+	   res15=cal("q16");
+       res16=cal("q17");
+       res17=cal("q18");
+       res18=cal("q19");
+       res19=cal("q20");
+	   res20=cal("q21");
+      document.getElementById("lblresult").innerHTML =  parseInt(res) + parseInt(res1) + parseInt(res2) + parseInt(res3) + parseInt(res4)+ parseInt(res5)+ parseInt(res6)+ parseInt(res7)+ parseInt(res8)+ parseInt(res9)+ parseInt(res10)+ parseInt(res11)+ parseInt(res12)+ parseInt(res13)+ parseInt(res14)+ parseInt(res15)+ parseInt(res16)+ parseInt(res17)+ parseInt(res18)+ parseInt(res19)+ parseInt(res20);
+      document.getElementById("lblresult").innerHTML = "Total score: " +  document.getElementById("lblresult").innerHTML;
+      //alert(document.getElementById("lblresult").innerHTML);
+  }
+  function cal(id)
+  {
+    var res;
+     var radioButtons = document.getElementsByName(id);
+      for (var x = 0; x < radioButtons.length; x ++) 
+      {
+         if (radioButtons[x].checked) 
+         {
+            res = parseInt(radioButtons[x].value);
+         }
+      }
+      return res;
+  }
+var sagscroller1=new sagscroller({
+	id:'mysagscroller',
+	mode: 'manual' //<--no comma following last option
+})
+
+//SAG scroller demo #2:
+
+var sagscroller2=new sagscroller({
+	id:'mysagscroller2',
+	mode: 'auto',
+	pause: 2500,
+	animatespeed: 400 //<--no comma following last option
+})
+     function show(id)
+     {
+		
+        if(document.getElementById(id).style.display == 'none')
+        {
+              document.getElementById(id).style.display='inline';
+			  document.getElementById(id).select();
+        }
+		else if(document.getElementById(id).style.display == 'inline')
+        {
+              document.getElementById(id).style.display='none';
+        } 
+     }
+    </script> 
+    <link rel="css/stylesheet" href="quiz.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/quiz-1.js"></script>    
+</head>
+<body>
+<!--------------Header--------------->
+<header> 
+  <div id="logo"><a href="#"><img src="./images/logo.png"/></a></div>
+</header>
+<!--------------Navigation--------------->
+<nav>
+		<!--<ul class="menu">
+    	<li><a href="index.html">About TOP</a></li>
+		<li><a href="aboutus.html">About us</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>-->
+	<div class="minimenu"><div>INDEX</div>
+		<select onchange="location=this.value">
+        <option></option>
+			<option value="home.html">Home</option>
+			<option value="Amisulpride.html">Amisulpride</option>
+			<option value="DER.html">Divalproex extended release</option>
+			<option value="MBD.html">Olanzapine</option>
+			<option value="EP.html">Escitalopram</option>
+			<option value="ZER.html">Zolpidem extended release</option>
+            <option value="SCL.html">Scales</option>
+			<option value="GDL.html">Guidelines</option>
+			<option value="CN.html">Conference news</option>
+            <option value="PMS.html">Psychiatry medical app</option>
+            <option value="BR.html">Book review</option> 
+		</select>
+	</div>
+</nav>
+<!--------------Content--------------->
+<section id="content">
+	<div id="main-content">
+		<article>
+			<div class="heading">
+				<div style="background-color:#0580c5; padding:10px; border-radius:10px;"><h11a>Book review</h11a></div>
+				<div class="info"> by Medeka Health | November 01, 2013</div></div><h12c>The Bipolar Brain</h12c><br/>
+                
+                <h12ca>Integrating Neuroimaging and Genetics</h12ca>
+                
+                
+          <p>The Bipolar Brain is an excellent up-to-date
+compendium that provides substantial advances in
+understanding the brain structures, neuroimaging,
+and genetics involved in the clinical manifestations
+of bipolar disorder. The book also provides an
+integrated neurophysiological paradigm of bipolar
+disorder by focusing on neuroimaging and genetic
+findings. The neurophysiological model suggested
+in the book can be a valuable resource for clinicians
+to a new framework for understanding bipolar
+illness and to develop improved therapies or novel
+strategies to treat/prevent the bipolar disorder. The
+content of the book is divided into three major</p>
+<ul style="list-style-type:square; color:#0580c5; font-size:14px"><h14>
+              <li><a href="#">
+              How neuroimaging informs models of bipolar
+disorder: Discusses brain imaging techniques
+and their application in bipolar disorder,
+structural brain abnormalities, advances
+in functional neuroimaging, including
+neuroimaging studies of bipolar disorder in
+youth, in bipolar and unipolar depression,
+and in bipolar disorder and schizophrenia.</a></li>
+<li><a href="#">How genetic research informs models of
+bipolar disorder: Discusses fundamental
+genetics of bipolar disorder, genetic techniques
+and their application to bipolar disorder and
+association of mitochondrial genetics and
+bipolar disorder.</a></li>
+<li><a href="#">Integration and future directions: Discusses
+the roles of integrating imaging techniques and
+genetic research towards personalized medicine
+and suggest an integrated neurophysiological
+model of bipolar disorder.</a></li>
+</h14>
+</ul>
+<p>The book is highly recommended for physicians
+who manage patients with bipolar disorder.</p>
+        
+
+<!--<div id="category2">            
+<p>              
+<strong>Question 2:</strong> The correct answer is <strong>Answer a</strong>.</p>        
+</div>        
+
+<div id="category3">            
+<p>                
+<strong>Question 3:</strong> The correct answer is <strong>Answer c</strong>.</p>        
+</div>        
+
+<div id="category4">            
+<p>               
+<strong>Question 4:</strong> The correct answer is <strong>Answer a</strong>.</p>        
+</div>        
+
+<div id="category5">            
+<p>                
+<strong>Question 5:</strong> The correct answer is <strong>Answer b</strong>.</p>        
+</div>        
+
+<div id="category6">            
+<p>                
+You answered them all right!</p>  
+ </div>-->
+		</article>
+	</div>
+	<div id="sidebar">
+		<section>
+		  <div class="heading">
+	    <h2>Contents</h2></div>
+			<div class="content">
+				<ul>
+					<li><a href="Amisulpride.html">Amisulpride</a></li>
+					<li><a href="DER.html">Divalproex extended release</a></li>
+					<li><a href="MBD.html">Olanzapine</a></li>
+					<li><a href="EP.html">Escitalopram</a></li>
+					<li><a href="ZER.html">Zolpidem extended release</a></li>
+					<li><a href="SCL.html">Scales</a></li>
+                    <li><a href="GDL.html">Guidelines</a></li>
+                    <li><a href="CN.html">Conference news</a></li>
+                  <li><a href="PMS.html">Psychiatry medical app</a></li>
+                    <li><a href="BR.html">Book review</a></li>
+				</ul>
+			</div>
+		</section>
+		<section>
+			<div class="heading"><h2>Archives</h2></div>
+			<div class="content">
+				<ul>
+					<li>Present Issue</li>
+					<li><a href="../Issue_3/index.html">Previous Issue</a></li>
+				</ul>
+			</div>
+		</section>
+	</div>
+	<div class="clear"></div>
+</section>
+<!--------------Footer--------------->
+<footer>
+	<p>Copyright © 2013 Medekahealth - All rights reserved. | Design by: MedekaHealth</p>
+</footer>
+</body></html>
